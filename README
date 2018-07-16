@@ -1,0 +1,9 @@
+** How to build & run **
+1) Download and build the dpdk lib, set RTE_SDK to the path where
+you have your DPDK installation.
+
+2) Compile test_dpdklib by running 'make' in the project directory
+
+3) Compile test_cpp by running 'make' in the project directory
+
+4) execute ./test_cpp with superuser privileges
